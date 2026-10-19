@@ -1,0 +1,186 @@
+body {
+    background-color: white !important;
+    color:#44405a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #b76e79;
+    font-weight: bold;
+}
+/* Links */
+a {
+    color: #b76e79;
+ text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #754080;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #c779a8;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #92558c;
+    color: white;
+}
+
+/* sections */
+section {
+    padding: 60px 20px;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border: 1px solid #f1dce9;
+    border-radius: 15px;
+    box-shadow:0 5px 20px rgbe(166, 77, 121, 0.08);
+}
+
+/* lmages */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+/* Unified Portfolio Colors */
+:root {
+    --main-color: #80516d;
+    --accent-color: #b76e79;
+    --soft-color: #f8eaf0;
+}
+
+/* Main headings */
+h1, h2, h3, h4, h5 {
+    color: var(--main-color);
+}
+
+/* Bootstrap blue replacement */
+.text-primary,
+.text-info {
+    color: var(--main-color) !important;
+}
+
+.bg-primary,
+.bg-info {
+    background-color: var(--accent-color) !important;
+}
+
+.btn-primary,
+.btn-info {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+    color: white !important;
+}
+
+.btn-outline-primary {
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+/* Navbar and dark sections */
+.navbar.bg-dark,
+section.bg-dark {
+    background-color: var(--main-color) !important;
+}
+
+/* Soft pink page background */
+body {
+    background-color: #fff7fa !important;
+}
+
+/* Keep cards clean */
+.card {
+    background-color: white;
+}
+/* Black and White Portfolio Theme */
+
+:root {
+    --main-color: #222222;
+    --secondary-color: #555555;
+    --background-color: #ffffff;
+    --soft-color: #f5f5f5;
+    --border-color: #e5e5e5;
+}
+
+/* Page background */
+body {
+    background-color: #ffffff !important;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* All headings */
+h1, h2, h3, h4, h5 {
+    color: #222222;
+}
+
+/* Remove random blue colors */
+.text-primary,
+.text-info {
+    color: #222222 !important;
+}
+
+/* Navbar and dark sections */
+.navbar.bg-dark,
+section.bg-dark {
+    background-color: #222222 !important;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-info {
+    background-color: #222222 !important;
+    border-color: #222222 !important;
+    color: #ffffff !important;
+}
+
+.btn-outline-primary {
+    color: #222222 !important;
+    border-color: #222222 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #222222 !important;
+    color: #ffffff !important;
+}
+
+/* Cards */
+.card {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+
+/* Personal information header */
+.card-header.bg-primary {
+    background-color: #222222 !important;
+}
+
+/* Links */
+a {
+    transition: 0.3s;
+}
+
+/* Profile image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer.bg-black {
+    background-color: #111111 !important;
+}
